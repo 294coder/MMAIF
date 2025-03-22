@@ -1,27 +1,14 @@
 <h1 style="text-align: center;">MMAIF: Multi-task and Multi-degradation All-in-One for Image Fusion with Language Guidance</h1>
 
 
-
-
-<div align="center">
-  <a href=https://scholar.google.com/citations?user=pv61p_EAAAAJ&hl=en>Zihan Cao </a> | Yu Zhong | Ziqi Wang | Jiang-Jian Deng</>
-
-  <a>University of Science and Technology of China</a>
-
-
-</div>
-
 paper: [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/1234.56789)
-
 
 # Quick Introduction
 
-<figure style="text-align: center;">
-<img src="assets/teaser.png" title="MMAIF Framework Overview" style="width: 400px; height: auto;" />
-
-<figcaption>Fig 1: MMAIF framework overview.</figcaption>
+<figure style="text-align: center; width: 100%;">
+  <img src="assets/teaser.png" title="MMAIF Framework Overview" style="width: 400px; height: auto;" />
+  <figcaption>Fig 1: MMAIF framework overview.</figcaption>
 </figure>
-
 
 <div>
 <strong>Abstract</strong>:
@@ -72,7 +59,7 @@ Our model can suit for multiple image fusion tasks and different degradations, *
 <figcaption>Fig. 3: Model comparision overview.</figcaption>
 </figure>
 
-Here are some visual results of our model and restoration+fusion methods.
+Here are some visual results of our model and restoration+fusion methods.****
 
 <figure style="text-align: center;">
 <img src="assets/teaser2.png" title="Visual Comparisons" style="width: 900px; height: auto;" />
