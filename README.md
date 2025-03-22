@@ -4,9 +4,12 @@
 
 
 <div align="center">
-  <a href=https://scholar.google.com/citations?user=pv61p_EAAAAJ&hl=en>Zihan Cao </a> | Yu Zhong | Ziqi Wang | Jiang-Jian Deng</>
+  <a href=https://scholar.google.com/citations?user=pv61p_EAAAAJ&hl=en>Zihan Cao </a> |
+  <a href=> Yu Zhong </a> |
+  <a href=> Ziqi Wang </a> |
+  <a href=> Jiang-Jian Deng </>
   
-  <a>University of Science and Technology of China</a>
+  <a>University of Science and Technology of China (UESTC)</a>
 </div>
 
 
@@ -14,10 +17,12 @@ paper: [![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](http
 
 # Quick Introduction
 
-<figure style="text-align: center; width: 100%;">
+<div style="text-align: center;">
   <img src="assets/teaser.png" title="MMAIF Framework Overview" style="width: 400px; height: auto;" />
-  <figcaption>Fig 1: MMAIF framework overview.</figcaption>
-</figure>
+  <p>Fig 1: MMAIF framework overview.</p>
+</div>
+
+
 
 
 <div>
@@ -28,11 +33,16 @@ which causes failure when processing degraded inputs; 3) operating in pixel spac
 
 We provide a effecient data synthesis pipeline to generate degradation pairs.
 
-
+<div style="text-align: center;">
 <figure style="text-align: center;">
 <img src="assets/data-pipeline.png" title="Data Synthesis Pipeline Overview" style="width: 800px; height: auto;" />
-<figcaption>Fig. 2: Data synthetic pipeline overview.</figcaption>
+<p>Fig. 2: Data synthetic pipeline overview.</p>
 </figure>
+</div>
+
+<a> 
+
+</a>
 
 
 Based on the pipeline, we generate around 10k image pairs for training, including various degradation scenarios including *rain, snow, haze, motion blur, JPEG compression, and Gaussian noise, etc.*, as well as, commom image fusion tasks including multi-exposure, multi-focus, and visible-infrared image fusion.
@@ -46,16 +56,20 @@ which is *fast and efficient*.
 
 Our model can suit for multiple image fusion tasks and different degradations, **only in one model**.
 
+<div style="text-align: center;">
 <figure style="text-align: center;">
 <img src="assets/networks.png" title="Model comparision overview" style="width: 900px; height: auto;" />
-<figcaption>Fig. 3: Model comparision overview.</figcaption>
+<p>Fig. 3: Model comparision overview.</p>
 </figure>
+</div>
 
-Here are some visual results of our model and restoration+fusion methods.****
+Here are some visual results of our model and restoration+fusion methods.
 
+<div style="text-align: center;">
 <figure style="text-align: center;">
 <img src="assets/teaser2.png" title="Visual Comparisons" style="width: 900px; height: auto;" />
-<figcaption>Fig. 4: Visual comparisons.</figcaption>
+<p>Fig. 4: Visual comparisons.</p>
 </figure>
+</div>
 
 ## Code Will be Released Soon! Stay Tuned for Updates.
